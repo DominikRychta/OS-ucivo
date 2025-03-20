@@ -5,4 +5,4 @@ wordpress pluginy: Elementor, Essential Addons for Elementor, Startovací šablo
 |rozdíl mezi tar a zip: tar ukládá I atributy/metadata 
 |ls -l /adresář: zobrazení informací 
 |tar crf /tmp/záloha.tar /var/log
-|
+|pbzip
