@@ -10,3 +10,9 @@ wordpress pluginy: Elementor, Essential Addons for Elementor, Startovací šablo
 •--listed-incremental :zálohuje jen zmeny
 •mc
 •migrace 
+-<code>chmod 700 praxe.sh<code>
+-<code>code .bashrc<code>
+-<code>date +%d.%m.%Y\ %H:%M<code>
+-<code>echo $promena<code>
+-<code>export promena="neco"<code>
+
