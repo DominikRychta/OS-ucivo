@@ -7,8 +7,8 @@ wordpress pluginy: Elementor, Essential Addons for Elementor, Startovací šablo
 |<code>tar crf /tmp/záloha.tar /var/log</code>
 |pbzip
 •<code>md5sum /adresář</code>  :otisk kontrolního součtu
-•--listed-incremental :zálohuje jen zmeny
-•mc
+<p><code>--listed-incremental</code>:Zálohuje jen zmeny,přidává se na konec stejně jako parametry.</p>
+<p>mc</p>
 •migrace 
 -<code>chmod 700 praxe.sh</code>
 -<code>code .bashrc</code>
@@ -18,3 +18,5 @@ wordpress pluginy: Elementor, Essential Addons for Elementor, Startovací šablo
 -<code>tty</code>
 přidat do .bashrc: <code>export promena="neco"
 ~/IT1p1/praxe.sh</code>
+-<code>ip ad|grep -A 3 -C 1 "2: "|grep inet|awk '{print $2}'|cut -d'/' -f1</code>
+
