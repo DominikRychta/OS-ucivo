@@ -15,4 +15,6 @@ wordpress pluginy: Elementor, Essential Addons for Elementor, Startovací šablo
 -<code>date +%d.%m.%Y\ %H:%M</code>
 -<code>echo $promena</code>
 -<code>export promena="neco"</code>
-
+-<code>tty</code>
+přidat do .bashrc: <code>export promena="neco"
+~/IT1p1/praxe.sh</code>
