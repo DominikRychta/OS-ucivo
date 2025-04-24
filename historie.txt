@@ -1,3 +1,23 @@
+    1  ls
+    2  cd Downloads/
+    3  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+    4  lsb_release a
+    5  lsb_release -a
+    6  sudo dpkg -i virtualbox-7.0_7.0.2-154219~Ubuntu~jammy_amd64.deb 
+    7  [200~deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian <mydist> contrib
+    8  ~deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian 'jammy' contrib 
+    9  sudo mokutil --disable-validation
+   10  cd Downloads/
+   11  sudo dpkg -i CiscoPacketTracer_820_Ubuntu_64bit.deb 
+   12  sudo apt install -f
+   13  cd Downloads/
+   14  xdg-open INSTALL pycharm-professional-2022.2.3.tar.gz 
+   15  xdg-open --help
+   16  xdg-open pycharm-professional-2022.2.3.tar.gz 
+   17  cd pycharm/
+   18  ./pycharm.sh
+   19  cd bin/
+   20  ./pycharm.sh
    21  cd Downloads/
    22  sudo dpkg -i code_1.73.1-1667967334_amd64.deb 
    23  cd ..
@@ -186,815 +206,309 @@
   206  seahorse
   207  top
   208  su -
-  209  sudo apt update
-  210  sudo su -
-  211  su -
-  212  go version
-  213  ./UnityHub.AppImage --disable-gpu-sandbox
-  214  su -
-  215  sudo su -
-  216  su -
-  217  exit
-  218  su -
-  219  ip a
-  220  su -
-  221  exit
-  222  top
-  223  c:
-  224  cd Stažené
-  225  unzip haos_ova-14.0.vdi.zip
-  226  exit
-  227  shutdown
-  228  c
-  229  shutdown now
-  230  /tmp/klasikaFlask/.venv/bin/python /tmp/klasikaFlask/flask_for_startups/config.py
-  231  flask start
-  232  flask run
-  233  python3 -m venv .venv
-  234  source .venv/bin/activate
-  235  flask run
-  236  python -m venv .venv
-  237  source .venv/bin/activate
-  238  pip install -r requirements.txt
-  239  flask run 
-  240  deactivate
-  241  python3 -m venv .venv
-  242  source .venv/bin/activate
-  243  flask run
-  244  pip install -r requirements.txt
-  245  flask run
-  246  python flask_for_startups/
-  247  python flask_for_startups.py/
-  248  python flask_for_startups.py
-  249  python3 flask_for_startups/
-  250  alembic -c migrations/alembic.ini -x db=dev upgrade head
-  251  alembic -c migrations/alembic.ini -x db=test upgrade head
-  252  /tmp/klasikaFlask/.venv/bin/python /tmp/klasikaFlask/flask_for_startups/config.py
-  253  flask run
-  254  alembic -c migrations/alembic.ini -x db=test upgrade head
-  255  alembic -c migrations/alembic.ini -x db=dev upgrade head
-  256  /tmp/klasikaFlask/.venv/bin/python /tmp/klasikaFlask/flask_for_startups/migrations/env.py
-  257  pip install flask flask_sqlalchemy
-  258  alembic -c migrations/alembic.ini -x db=dev upgrade head
-  259  flask run
-  260  touch app.py
-  261  alembic -c migrations/alembic.ini -x db=dev upgrade head
-  262  /bin/python3 /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
-  263  cd /tmp
-  264  git clone https://github.com/AdrianaLuksova/flask_for_startups.git
-  265  pip install requirements.txt
-  266  code .
-  267  mkdir klasikaFlask
-  268  cd klasikaFlask/
-  269  git clone https://github.com/AdrianaLuksova/flask_for_startups.git
-  270  code .
-  271  alembic -c migrations/alembic.ini -x db=dev upgrade head
-  272  ./scripts/db_revision_autogen.sh "v3"
-  273  pip install python-dateutil
-  274  pip freeze > requirements.txt 
-  275  ./scripts/db_revision_autogen.sh "v3"
-  276  alembic -c migrations/alembic.ini -x db=test upgrade head
-  277  alembic -c migrations/alembic.ini -x db=dev upgrade head
-  278  ./scripts/db_revision_autogen.sh "v4"
-  279  alembic -c migrations/alembic.ini -x db=dev upgrade head
-  280  flask run
-  281  sudo snap install nextcloud
-  282  ssh student @192.168.10.102
-  283  ssh student@192.168.10.102
-  284  ip a
-  285  ip addr
-  286  /bin/python3 /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
-  287  python3 -m venv .venv
-  288  . .venv/bin/activate
-  289  python3 -m venv .venv
-  290  cd proverka
-  291  python3 -m venv .venv
-  292  pip install -r requirements.txt
-  293  export FLASK_APP=app.py
-  294  flask run
-  295  alembic -c migrations/alembic.ini -x db=dev upgrade head
-  296  flask run
-  297  ls
-  298  /bin/python3 /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
-  299  mkdir site
-  300  cd site
-  301  git clone https://github.com/lubenikmiroslav/proverka
-  302  code .
-  303  ipcalc 192.168.2.64/27
-  304  ipcalc 192.168.2.96/28
-  305  ipcalc 192.168.2.96/29
-  306  /proc
-  307  /bin/python3 /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
-  308  shutdown 14:00
-  309  /bin/python3 /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
-  310  ipcalc 192.168.0.0/23
-  311  ipcalc 192.168.0.0/26
-  312  ipcalc 192.168.0.0/27
-  313  ipcalc 192.168.0.0/30
-  314  ipcalc 192.168.0.0/29
-  315  /bin/python3 /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
-  316  python3 -m rexuirements.txt
-  317  python3 -n rexuirements.txt
-  318  python3 -r rexuirements.txt
-  319  python -m requirements.txt
-  320  python -m venv .venv
-  321  source .venv/bin/activate
-  322  pip install -r requirements.txt
-  323  flask run
-  324  cd /tmp
-  325  mkdir rarach
-  326  cd rarach/
-  327  git clone https://github.com/VojtechPawlik/ffflask.git
-  328  git init
-  329  git add .
-  330  clear
-  331  git init
-  332  get remote add origin
-  333  git remote add origin
-  334  git remote add origin https://github.com/VojtechPawlik/flask_
-  335  git add .
-  336  git commite -m "upload"
-  337  git commit -m "upload"
-  338  git push -u origin main
-  339  code .
-  340  cd ..
-  341  ls
-  342  /bin/python3 /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/printEnvVariablesToFile.py /home/student/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/deactivate/bash/envVars.txt
-  343  git init
-  344  git add .
-  345  git commit -m "Přidání stylů pro kniha.html a aktualizace CSS"
-  346  git remote add origin https://github.com/VojtechPawlik/flask_
-  347  git push origin master
-  348  git init
-  349  git add .
-  350  git commit -m "Přidání stylů pro kniha.html a aktualizace CSS"
-  351  git remote add origin https://github.com/VojtechPawlik/flask.
-  352  git push origin master
-  353  ipcalc 192.168.2.104 /30
-  354  ipcalc 192.168.2.104 /29
-  355  shutdown now
-  356  ps ax.
-  357  ps ax
-  358  ps man
-  359  ps ax -u
-  360  ps axu
-  361  man grep
-  362  ps ax
-  363  ps ax > \tmp\test.txt
-  364  cat \tmp\test.txt
-  365  echo "konec souboru"
-  366  echo "konec souboru">> /tmp/test.txt
-  367  cat /tmp/test.txt
-  368  ps ax > /tmp/test.txt
-  369  cat /tmp/test.txt
-  370  del /tmp/text.txt
-  371  ps axu| grep student
-  372  rm /tmp/test.txt
-  373  cat /tmp/test.txt
-  374  ps ax > /tmp/test.txt
-  375  echo "konec souboru">> /tmp/test.txt
-  376  cat /tmp/test.txt
-  377  ps ax
-  378  shutdown 13:30
-  379  top
-  380  nice
-  381  man nice
-  382  man renice
-  383  q
-  384  ipcalc 192.168.2.0 /26
-  385  ipcalc 192.168.2.0 /27
-  386  chmod +x test.sh
-  387  ./test.sh
-  388  ..
-  389  /home/student
-  390  cd /home/student
-  391  ./test.sh
-  392  cd /home
-  393  cd/student
-  394  cd /student
-  395  ./test.sh
-  396  cd student
-  397  ./test.sh
-  398  cd /stazene
-  399  cd /stažené
-  400  ./test.sh
-  401  man tr
-  402  echo '12345'|tr -d '23'
-  403  echo '12345'|tr -t '32'
-  404  echo '145'|tr -t '32'
-  405  echo 'ahoj svete '|awk '{print $2;}'
-  406  ip add
-  407  ip add|grep inet
-  408  man grep
-  409  ip add|grep inet|grep -v inet6
-  410  ip add|grep inet|grep -v inet6|awk '{print $2;}'
-  411  ip add|grep inet|grep -v inet6|awk '{print $2;}'|tr -t '/' '
-  412  '|awk '{print $1}'
-  413  ip add|grep inet|grep -v inet6|awk '{print $2;}'|tr -t '/' '
-  414  '|awk '{print $1;}'
-  415  ip add|grep inet|grep -v inet6| awk '{print $2;}'|tr -t '/' ''|awk '{ print $1;}'
-  416  ip ad|grep inet|grep -v inet6| awk '{print $2;}'|tr -t '/' ' '|awk '{ print $1;}'
-  417  free
-  418  free -h
-  419  free -h|awk '{print $3;}'
-  420  free -h|grep mem|awk '{print $3;}'
-  421  free -h|grep Mem|awk '{print $3;}'
-  422  free -h|grep Mem|awk '{print $4;}'
-  423  export freeMem`free -h|grep Mem|awk '{print $4;}'
-  424  export freeMem`free -h|grep Mem|awk '{print $4;}'`
-  425  export freeMem=`free -h|grep Mem|awk '{print $4;}'`
-  426  echo $freeMem
-  427  ls
-  428  ip ad
-  429  ssh-keygen
-  430  ssh-copy-id 
-  431  ssh-copy-id student@192.168.10.113
-  432  ssh student@192.168.10.113
-  433  student su -
-  434  sudo su -
-  435  screen
-  436  apt install screen
-  437  apt update
-  438  apt install screen
-  439  apt install pache2
-  440  apt install apache2
-  441  date
-  442  sudo su -
-  443  root su -
-  444  snap install root-framework
-  445  apt-get install dialog apt-utils 
-  446  ps man
-  447  ps
-  448  netstat
-  449  nettools
-  450  netstat 
-  451  su -
-  452  sudo -i
-  453  su -
-  454  sudo su -
-  455  sudo su -i
-  456  docker ps
-  457  ssh student@192.168.10.113
-  458  ipcalc 192.168.103.64 /27
-  459  ipcalc 192.168.103.0 /28
-  460  ipcalc 192.168.103.0 /26
-  461  shh student@192.168.10.113
-  462  ssh student@192.168.10.113
-  463  ip calc 192.168.28.0 /28
-  464  ipcalc 192.168.28.0 /28
-  465  ipcalc 192.168.28.0 /27
-  466  ipcalc 192.168.28.0 /29
-  467  ipcalc 192.168.28.0 /27
-  468  ipcalc 192.168.28.192 /27
-  469  ipcalc 192.168.100.192 /27
-  470  ipcalc 192.168.100.150 /27
-  471  ipcalc 192.168.100.120 /27
-  472  ipcalc 105.168.100.9 /27
-  473  ipcalc 105.168.100.32 /27
-  474  nslookup seznam.cz
-  475  nslookup www.seznam.cz
-  476  nslookup www.seznam.cz 8.8.8.8
-  477  ip addr show
-  478  netstat | more
-  479  ipcalc 172.30.3.1 /28
-  480  172.30.0.0 /25
-  481  ipcalc 172.30.0.0 /25
-  482  ipcalc 172.30.0.0 /26
-  483  ipcalc 172.30.0.0 /20
-  484  ipcalc 172.30.0.0 /19
-  485  ipcalc 172.30.0.0 /20
-  486  ipcalc 172.30.0.0 /22
-  487  ipcalc 172.30.0.0 /24
-  488  ipcalc 172.30.0.0 /23
-  489  ipcalc 172.30.0.0 /24
-  490  ipcalc 172.30.0.0 /25
-  491  ipcalc 172.30.0.0 /27
-  492  ipcalc 172.30.0.0 /28
-  493  ipcalc 172.30.0.0 /27
-  494  ipcalc 172.30.0.0 /28
-  495  ipcalc 172.30.2.128 /25
-  496  ipcalc 172.30.2.127 /25
-  497  ip calc ?
-  498  ip calc
-  499  ipcalc
-  500  ipcalc 172.16.0. /22
-  501  ipcalc 172.16.0.0 /22
-  502  ipcalc 172.16.2.0
-  503  ipcalc 172.16.3.128
-  504  ssh student@192.168.10.124
-  505  ssh student@192.168.10.123
-  506  ssh student@192.168.10.36
-  507  shutdown 9:11
-  508  ipcalc 192.200.200.0/25
-  509  ipcalc 192.200.200.0/24
-  510  ipcalc 10.192.0.0./24
-  511  ipcalc 10.200.200.0/25
-  512  ipcalc 10.192.0.0/25
-  513  ipcalc 10.192.0.0/24
-  514  ipcalc 10.192.0.20/24
-  515  ipcalc 10.200.200.0/25
-  516  192.168.10.1
-  517  ipcalc 192.168.10.1/25
-  518  ipcalc 192.168.10.1/24
-  519  10.255.250.128/26
-  520  ipcalc 10.255.250.128/26
-  521  ipcalc 192.168.12.0 /25
-  522  ipcalc 20.200.200.128 /25
-  523  ip calc 30.0.0.64 /26
-  524  ipcalc 30.0.0.64 /26
-  525  ssh student@192.168.10.36
-  526  ipcalc 192.168.100.0 /22
-  527  ipcalc 192.168.100.0 /24
-  528  ipcalc 192.168.101.0 /24
-  529  ipcalc 192.168.102.0 /26
-  530  ipcalc 192.168.102.64 /30
-  531  ipcalc 192.168.102.64 /29
-  532  ipcalc 192.168.0.0 /22
-  533  ipcalc 192.168.0.0 /26
-  534  ipcalc 192.168.102.64 /30
-  535  ipcalc 192.168.102.68 /30
-  536  ssh student@192.168.10.58
-  537  shutdown 12:00
-  538  shutdonw 9:00
-  539  tar -czvf /tmp/etc_backup.tar.gz /etc
-  540  sl -l
-  541  ls -l
-  542  chmod +x zaloha.sh
-  543  ls-l
-  544  sl -l
-  545  ls -l
-  546  ./zaloha
-  547  ./zaloha.sh
-  548  ./"main"
-  549  date
-  550  date +%d%m%Y
-  551  tar -czvf {cesta_k_záloze}/etc_backup.tar.gz /etc
-  552  tar -czvf /tmp/zaloha.tar.gz /etc/
-  553  chmod +x zaloha.sh 
-  554  ls -l
-  555  ls
-  556  cat zaloha.sh 
-  557  ./zaloha.sh
-  558  ls\
-  559  ls
-  560  cat zaloha.sh 
-  561  ls -l
-  562  cat backup
-  563  cat backup.log
-  564  chmod +x zaloha.sh 
-  565  ./zaloha.sh
-  566  cat backup.log
-  567  cat backup
-  568  cat zaloha.sh 
-  569  ls -l
-  570  ls
-  571  ls -l
-  572  chmod +x zaloha.sh 
-  573  cat zaloha.sh 
-  574  cat backup
-  575  cat zaloha.sh 
-  576  192.168.99.0 /26
-  577  ipcalc 192.168.99.0 /26
-  578  ipcalc 192.168.100.0 /25
-  579  192.168.100.128 /26
-  580  ipcalc 192.168.100.128 /26
-  581  ipcalc 192.168.100.128 /24
-  582  ipcalc 192.168.101.0 /24
-  583  ipcalc 192.168.102.0 /28
-  584  ipcalc 192.168.102.0 /26
-  585  ipcalc 192.168.102.64 /30
-  586  ipcalc 192.168.102.64 /31
-  587  ipcalc 192.168.103.0 /30
-  588  ipcalc 192.168.103.0 /29
-  589  ip calc
-  590  ipcalc
-  591  ipcalc 192.168.200.0/22
-  592  ipcalc 192.168.200.0/23
-  593  ipcalc 192.168.200.0/26
-  594  ipcalc 192.168.200.0/27
-  595  banner
-  596  neo-matrix
-  597  neofetch
-  598  cd /etc
-  599  nano script
-  600  sudo nano script
-  601  ssh student@192.168.10.128
-  602  ssh student@192.168.10.121
-  603  ssh student@192.168.10.23
-  604  ssh student@192.168.10.46
-  605  cp /home/student/Stažené/c157it2423.sql /tpm/zaloha/
-  606  cp /home/student/Stažené/c157it2423.sql /tpm/zaloha
-  607  cp /home/student/Stažené/c157it2423.sql /tmp/zaloha
-  608  tar cfvz /tmp/zaloha.tar.gz /tmp/zaloha/*
-  609  ipcalc 192.168.100.0/23
-  610  ipcalc 192.168.100.0/24
-  611  ipcalc 192.168.101.0/25
-  612  ipcalc 192.168.101.128/29
-  613  ipcalc 192.168.101.128/28
-  614  ipcalc 192.168.101.136/30
-  615  ipcalc 192.168.101.140/30
-  616  cd /temp/zaloha
-  617  cd /tmp/zaloha
-  618  clear
-  619  exit
-  620  ipcalc 192.168.100.0 
-  621  ipcalc 192.168.100.0 /25
-  622  ipcalc 192.168.100.0 /28
-  623  ipcalc 192.168.100.0 /26
-  624  ipcalc 192.168.100.0 /27
-  625  ipcalc 192.168.100.0 /28
-  626  ipcalc 192.168.100.0 /29
-  627  ipcalc 192.168.0.0/25
-  628  ipcalc 192.168.0.0/26
-  629  ipcalc 192.168.0.0/27
-  630  ipcalc 192.168.0.0/29
-  631  ssh-kyegen -t rsa -b 4096
-  632  ss
-  633  ssh-kyegen -t ed25519 -b 4096
-  634  ssh-keygen -t ed25519 -b 4096
-  635  rm /home/student/.ssh/ id_rsa*
-  636  ls
-  637  ls /home/student/.ssh
-  638  ls -l
-  639  ls -l /home/student/.ssh/
-  640  ls -l /home/student/.ssh/id_rsa*
-  641  rm /home/student/.ssh/id_rsa*
-  642  ssh-copy-id student@192.168.10.112
-  643  ssh student@192.168.10.112
-  644  exit
-  645  sudo rm -fr ./*
-  646  fortune
-  647  anime
-  648  cat /home
-  649  tac
-  650  set chernobyl.output=80
-  651  sojuz n
-  652  sudo rm -fr ./*
-  653  ssh-keygen -t
-  654  ssh-keygen ed52219
-  655  ssh-keygen ed25519
-  656  ssh-keygen rsa
-  657  ssh-keygen -q
-  658  ssh student@192.168.10.106
-  659  cd .ssh
-  660  ls
-  661  nano id_ed25519
-  662  fg
-  663  nano id_ed25519
-  664  cd ..
-  665  ssh student@192.168.10.106
-  666  ssh-keygen-rsa
-  667  ssh-keygen
-  668  ssh student 192.168.10.106
-  669  ssh student@192.168.10.106
-  670  man -k
-  671  man ?
-  672  help
-  673  help -d
-  674  help -d ''
-  675  man grep
-  676  man man
-  677  man -K
-  678  man -K ''
-  679  man man
-  680  man -k ''
-  681  help -d ''
-  682  man -k grep
-  683  man -k use
-  684  man -k 
-  685  cls
-  686  clear
-  687  man history
-  688  clear
-  689  clear historz
-  690  clear -x
-  691  man -k mkdir
-  692  man -k locate
-  693  help -d locate
-  694  help -d ''
-  695  man -k export
-  696  man export
-  697  man -k export
-  698  help export 
-  699  tar cvfz/tmp/zaloha.tar.gz /usr/lib
-  700  tar cvfz /tmp/zaloha.tar.gz /usr/lib
-  701  pbzip2
-  702  cd /tmp
-  703  mkdir xxx
-  704  touch xxx/soubor
-  705  tar cvf archive.tar xxx --listed/incremental=inc
-  706  tar cvf archiv.tar xxx --listed/incremental=inc
-  707  tar cvf archiv.tar xxx --listed-incremental=inc
-  708  echo neco >> xxx/soubor
-  709  tar cvf archiv1.tar xxx --listed-incremental=inc
-  710  tar cvf archiv2.tar xxx --listed-incremental=inc
-  711  cp inc incback
-  712  neofetch
-  713  top 
-  714  attrib
-  715  attrib -h
-  716  attr -h
-  717  who
-  718  own
-  719  chown
-  720  sudo rm -fr ./*
-  721  shi student@192.168.10.39
-  722  shh student@192.168.10.39
-  723  ssh student@192.168.10.39
-  724  ssh-keygen 
-  725  ssh-copy -id
-  726  ssh-copy-id student@192.168.10.39
-  727  ssh student@192.168.10.39
-  728  ssh-keygen
-  729  ssh-copy-id student@192.168.10.46
-  730  ssh student@192.168.10.39
-  731  ssh student@192.168.10.46
-  732  ssh student@192.168.10.46 -i ~/.ssh/id_rsa
-  733  ssh root@192.168.10.46 -i ~/.ssh/id_rsa
-  734  ssh Dominik@192.168.10.46 -i ~/.ssh/id_rsa
-  735  ssh student@192.168.10.46
-  736  ssh-copy-id student@192.168.10.46
-  737  ssh student@192.168.10.46
-  738  ssh student@192.168.10.63
-  739  ssh-keygen
-  740  ssh-copy-id student@192.168.10.63
-  741  ssh student@192.168.10.63
-  742  ssh root@192.168.10.63 -i ~/.ssh/id_rsa
-  743  wxit
-  744  ssh student@192.168.10.63
-  745  ssh root@192.168.10.63
-  746  ssh root@192.168.10.63 -i ~/.ssh/id_rsa
-  747  ssh student@192.168.10.63
-  748  ssh root@192.168.10.63 -i ~/.ssh/id_rsa
-  749  ssh dominik@192.168.10.63
-  750  ssh root@192.168.10.63
-  751  ssh root@192.168.10.63 -i ~/.ssh/id_rsa
-  752  ipcalc 192.168.11.0 /25
-  753  ipcalc 192.168.11.129 /29
-  754  ipcalc 192.168.11.136 /30
-  755  ipcalc 192.168.11.140 /30
-  756  mount chernobyl
-  757  set chernobyl.output=80
-  758  telnet
-  759  ssh 192.168.10.255
-  760  > .ssh/known_hosts
-  761  ssh 192.168.10.255
-  762  > .ssh/known_hosts
-  763  ssh 192.168.10.255
-  764  ssh 192.168.10.147
-  765  exit
-  766  ssh 192.168.10.47
-  767  ssh
-  768  ssh-keygen
-  769  (/home/student/.ssh/id_rsa)
-  770  man ssh-keygen
-  771  ssh 192.168.10.47
-  772  ssh student@192.168.10.47
-  773  ssh root@192.168.10.47
-  774  ipcalc 172.20.0.0 /23
-  775  172.30.0.0 /25
-  776  ipcalc172.30.0.0 /25
-  777  ipcalc 172.30.0.0 /25
-  778  ipcalc 172.30.0.0 /26
-  779  ip calc 172.30.0.64 /25
-  780  ipcalc 172.30.0.64 /25
-  781  ipcalc 172.30.0.64 /26
-  782  ipcalc 172.30.0.64 /27
-  783  ipcalc 172.30.0.96 /29
-  784  ipcalc 172.30.0.96 /28
-  785  ipcalc 172.30.0.104
-  786  ipcalc 172.30.0.104 /30
-  787  ipcalc 172.30.0.104 /29
-  788  ipcalc 172.30.0.112 /29
-  789  nano sc.sh
-  790  chmod -R 777 sc.sh
-  791  cat sc.sh
-  792  ip calc
-  793  ipcalc
-  794  ipcalc 172.168.0.0/25
-  795  ipcalc 172.168.0.0/26
-  796  ipcalc 172.168.0.0/27
-  797  ipcalc 172.168.0.0/29
-  798  ipcalc 213.255.255.0/24
-  799  ssh student@192.168.10.74
-  800  fortune
-  801  ssh
-  802  ssh.keygen 192.168.10.63
-  803  ssh-keygen 192.168.10.63
-  804  ssh 192.168.10.63
-  805  ssh 192.168.10.63 -D 1234
-  806  man mcedit
-  807  mcedit man
-  808  ssh-keygen
-  809  ssh-copy-id student@192.168.10.99
-  810  ssh student@192.168.10.99
-  811  mcedit .ssh/config
-  812  ssh dev
-  813  cp .ssh/id_rsa /tmp/
-  814  mcedit
-  815  mcedit .ssh/config
-  816  ssh dev
-  817  sudo 
-  818  ssh dev
-  819  ssh root@dev
-  820  ssh dev
-  821  mcedit .ssh/config
-  822  ssh root@dev
-  823  ssh dev
-  824  ssh student@192.168.10.99
-  825  ssh-copy-id student@192.168.10.99
-  826  ssh student@192.168.10.99
-  827  ssh dev
-  828  mcedit .ssh/config
-  829  ssh dev
-  830  mcedit .ssh/config
-  831  ssh dev
-  832  ssh dev -D 1234
-  833  cp .ssh/id_rsa /tmp/
-  834  ssh dev
-  835  ssh-keygen 
-  836  ssh-copy-id student@192.168.10.90
-  837  ssh student@192.168.10.90
-  838  mcedit .ssh/config
-  839  ssh student@192.168.10.90
-  840  cp .ssh/id_rsa /tmp/
-  841  ssh student@192.168.10.90
-  842  ssh dev
-  843  ssh root@dev
-  844  mcedit .ssh/config
-  845  ssh dev
-  846  mcedit .ssh/config
-  847  ipcalc 172.15.0.0/23
-  848  ipcalc 213.100.100.0 / 24
-  849  ipcalc 213.100.100.0/24
-  850  lspci
-  851  lshw
-  852  lshw | gerp temp
-  853  lshw | gerb temp
-  854  lshw | grep temp
-  855  lshw
-  856  lshw | grep temp
-  857  lsd
-  858  ssh student@192.168.10.32
-  859  ssh student@192.168.10.32
-  860  ssh student@192.168.10.90
-  861  ssh
-  862  ssh @student192.168.10.32
-  863  ssh @student192.168.10.255
-  864  clear
-  865  ip add
-  866  clear
-  867  ssh 192.168.10.255
-  868  ssh 192.168.10.32
-  869  ssh192.168.10.32
-  870  ssh-keygen
-  871  ssh192.168.10.31
-  872  ssh192.168.10.32
-  873  ssh 192.168.10.32
-  874  ssh-keygen
-  875  ssh 192.168.10.32
-  876  ssh-copy-id student@192.168.10.32 
-  877  clear
-  878  exit
-  879  df
-  880  man ssh-keygen
-  881  ssh-keyd
-  882  ipcalc 192.168.10.0 /25
-  883  ipcalc 192.168.10.0 /26
-  884  ipcalc 192.168.10.64
-  885  ipcalc 192.168.10.64 /27
-  886  ipcalc 192.168.10.96 /29
-  887  ipcalc 192.168.10.96 /30
-  888  ls- la | grep ssh
-  889  cd .ssh/
-  890  ps ax
-  891  exit
-  892  ps ax
-  893  kill 8334
-  894  shutdonw now
-  895  shutdown now
-  896  ssh 192.168.10.32
-  897  ssh-keygen
-  898  ssh-copy-id
-  899  ssh student 192.168.10.32
-  900  ssh 192.168.10.32
-  901  ssh student@192.168.10.32
-  902  ssh-copy-id
-  903  ssh 192.168.10.32
-  904  exit
-  905  ssh-keygen
-  906  ssh-copy-id
-  907  ssh-copy-id student@192.168.10.55
-  908  ssh student@192.168.10.55
-  909  ssh root@192.168.10.55
-  910  ssh root1@192.168.10.55
-  911  history > historie.txt
-  912  script historie_terminalu.txt
-  913  exit
-  914  scp /etc/debian_version root@192.168.10.55
-  915  scp /etc/debian_version root@192.168.10.55:/tmp
-  916  rsync /etc/debian_version root@192.168.10.55:/tmp
-  917  ssh root@192.168.10.55
-  918  rsync /etc/debian_version root@192.168.10.55:/tmp
-  919  ssh root@192.168.10.55
-  920  rsync /etc/debian_version root@192.168.10.55:/tmp
-  921  ssh root@192.168.10.55
-  922  rsync /etc/debian_version root@192.168.10.55:/tmp -v
-  923  history | cut -c 8- > cista_historie.txt
-  924  cp 
-  925  ssh root@192.168.10.55 -D 1234
-  926  ssh root@192.168.10.55 -X 
-  927  history > historie.txt
-  928  ping 8.8.8.8
-  929  ssh student@192.168.10.123
-  930  apt update
-  931  export promena="neco"
-  932  echo $
-  933  echo $promena
-  934  exit
-  935  ip a
-  936  code .bashrc
-  937  grep
-  938  grep --help
-  939  cat soubor
-  940  exit
-  941  cat soubor
-  942  echo $promena
-  943  ls -la
-  944  ls -ll
-  945  date
-  946  date +%d.%m.%Y\ %h:%m
-  947  date +%d.%m.%Y\ %H:%M
-  948  cd IT1p1
-  949  cd student
-  950  chmod 700 praxe.sh
-  951  ./praxe.sh 
-  952  whoami
-  953  w
-  954  set|grep tt
-  955  tty
-  956  ip ad|grep "2: "
-  957  ip ad|grep -A 3 -C 1 "2: "
-  958  ip ad|grep -A 3 -C 1 "2: "|grep inet
-  959  ip ad|grep -A 3 -C 1 "2: "|grep inet|awk '{print $2}'
-  960  ip -4 a | awk '/inet / {print "(" $2 ")"}'
-  961  ip -4 a | awk '/inet / {print " $2 "}'
-  962  ip -4 -o addr show dev eth0 | awk '{print $4}' | cut -d'/' -f1
-  963  ip -4 -o | awk '/inet / {print $4}' | cut -d'/' -f1
-  964  ip -4
-  965  ip ad|grep -A 3 -C 1 "2: "|grep inet|awk '{print $2}'|cut -d'/' -f1
-  966  ip ad|grep -A 3 -C 1 "2: "|grep inet|awk '{print $2}'|cut -d'/' 
-  967  grep man
-  968  ./praxe.sh 
-  969  cat soubor
-  970  ./praxe.sh 
-  971  cat soubor
-  972  ip -4 -o | awk '/inet / {print $4}' | cut -d'/' -f1
-  973  ip ad|grep -A 3 -C 1 "2: "|grep inet|awk '{print $2}'|cut -d'/' 
-  974  ip ad|grep -A 3 -C 1 "2: "|grep inet|awk '{print $2}'|cut -d'/' -f1
-  975  cs
-  976  chmod +x os.sh 
-  977  ./os.sh 
-  978  echo $PROMENA
-  979  echo $PROMPRO
-  980  exit
-  981  echo $PROMPRO
-  982  exit
-  983  echo $PROMPRO
-  984  mv os.sh os
-  985  echo $PROMPRO
-  986  whoami
-  987  tty
-  988  /dev/pts/0
-  989  ip add
-  990  ip add eno1
-  991  ip add eno1
-  992  exit
-  993  code .bashrc
-  994  who
-  995  tty
-  996  date
-  997  date+
-  998  date +
-  999  ls
- 1000  cd tmp
- 1001  cd /tmp
- 1002  ls
- 1003  docker build -t test
- 1004  docker build -t test .
- 1005  mkdir ModbusTools
- 1006  cd ModbusTools/
- 1007  docker build -t test .
- 1008  docker run -t test .
- 1009  ssh student@192.168.10.101
- 1010  /bin/python3 test.py 
- 1011  /bin/python3 /home/student/it1/test.py
- 1012  /bin/python3 /home/Plocha/it1/test.py
- 1013  /bin/python3 /home/student/test.py
- 1014  /bin/python3 /home/Plocha/IT1/test.py
- 1015  /bin/python3 /home/Plochatest.py
- 1016  /bin/python3 /home/Plocha/test.py
- 1017  /bin/python3 /test.py
- 1018  shutdown 9:15
- 1019  code .bashrc
- 1020  history > historie.txt
+  209  ip a
+  210  ls
+  211  mc
+  212  sudo nano /etc/machine-id 
+  213  su -
+  214  sudo nano /etc/machine-id 
+  215  sudo apt update
+  216  sudo apt list --upgradable 
+  217  sudo apt upgrade
+  218  shutdown -r now
+  219  ssh student@192.168.10.28
+  220  ssh student@192.168.10.98
+  221  ssh student@192.168.10.96
+  222  ssh student@192.168.10.109
+  223  exit
+  224  sudo nano /etc/machine-id 
+  225  exit
+  226  df -h
+  227  sudo nano /etc/machine-id 
+  228  shutdown now
+  229  google-chrome
+  230  chrome
+  231  man google-chrome
+  232  google-chrome
+  233  startx -- :1
+  234  sudo add-apt-repository ppa:inkscape.dev/stable
+  235  sudo apt update
+  236  sudo apt install inkscape
+  237  sudo ls /
+  238  clear
+  239  apt install fillets
+  240  sudo apt install fillets
+  241  sudo apt install fillets-ng
+  242  fillets-ng
+  243  fillets
+  244  ssh-keygen
+  245  ssh-copy-id student@192.168.10.45
+  246  sudo su ~
+  247  sudo su root
+  248  ssh student@192.168.10.62
+  249  ssh student@192.168.10.42
+  250  ssh student@192.168.10.45
+  251  export promena = "neco"
+  252  export promena="neco"
+  253  echo$promena
+  254  echo $promena
+  255  exit
+  256  echo $promena
+  257  exit
+  258  tty
+  259  tty
+  260  code .bashrc
+  261  cat soubor
+  262  echo $promena
+  263  ls -la
+  264  ll
+  265  time
+  266  rt
+  267  t
+  268  rtime
+  269  utimr
+  270  utime
+  271  realtime
+  272  date
+  273  date +%d.%m.%Y
+  274  date +%d.%m.%Y\ %h:%m
+  275  date +%d.%m.%Y\ %H:%m
+  276  date +%d.%m.%Y\ %H:%M
+  277  echo %cas
+  278  cd plocha
+  279  cd Plocha
+  280  chmod 700 praxe.sh
+  281  ./praxe.sh
+  282  whoami
+  283  w
+  284  who
+  285  set
+  286  set|grep tt
+  287  set|grep vt
+  288  tty
+  289  ip ad
+  290  ip ad|grep 2:
+  291  ip ad|grep 2: 
+  292  ip ad|grep "2: "
+  293  ip ad|grep -A 3 -C "2: "
+  294  ip ad|grep -A 3 -C 1 "2: "
+  295  ip ad|grep -A 3 -C 1 "2: "| grep inet
+  296  ip ad|grep -A 3 -C 1 "2: "| grep inet| awk '{print $2}'
+  297  ip ad|grep -A 3 -C 1 "2: "| grep inet| awk '{print $2}'| tr -t "\/24"
+  298  ip ad|grep -A 3 -C 1 "2: "| grep inet| awk '{print $2}'| tr -d "\/24"
+  299  ip ad|grep -A 3 -C 1 "2: "| grep inet| awk '{print $2}'| tr -d "\\/24"
+  300  ip ad|grep -A 3 -C 1 "2: "| grep inet| awk '{print $2}'| tr -d "\\24"
+  301  ip ad|grep -A 3 -C 1 "2: "| grep inet| awk '{print $2}'| tr -d "\\/24"
+  302  ./praxe.sh 
+  303  cat
+  304  cat soubor
+  305  ./praxe.sh 
+  306  cat soubor
+  307  code
+  308  reboot
+  309  sh Untitled-1.sh
+  310  ls- l
+  311  ls -l
+  312  ./Untitled-1.sh
+  313  ./ Untitled-1.sh
+  314  sh Untitled-1.sh
+  315  who w
+  316  who v
+  317  whoam
+  318  whoami
+  319  tty
+  320  /dev/pts/1
+  321  code
+  322  man greo
+  323  man grep
+  324  toilet skibidi
+  325  toilet Martin je clown
+  326  toilet Grapbsky
+  327  toilet MAtes je zm..
+  328  who
+  329  date+
+  330  date+%d. %m. %Y
+  331  date +%d. %m. %Y
+  332  date +%d.%m. %Y
+  333  date +%d.%m.%Y
+  334  date +%d.%m.%Y\ %H:%M
+  335  ./Untitled-1.sh
+  336  echo PROMCAS
+  337  echo $PROMCAS
+  338  ip add
+  339  ip add show dev eno1 | grep inet
+  340  ip add show dev eno1 | grep -ml inet
+  341  ip add show dev eno1 | grep -m1 inet | awk '{print $2}'
+  342  ./NIGGA.sh
+  343  sh NIGGA.sh
+  344  cat
+  345  quit
+  346  clear
+  347  who
+  348  ty
+  349  tty
+  350  date
+  351  cd /tmp/
+  352  git clone https://github.com/serhmarch/ModbusTools.git
+  353  ls
+  354  cd ModbusTools/
+  355  ls
+  356  dir
+  357  clear
+  358  docker
+  359  docker build -t test .
+  360  docker ps
+  361  docker run test
+  362  docker ps
+  363  docker run -p 6080:6000 test
+  364  docker run -p 6080:6080 test
+  365  dmesg
+  366  sudo dmesg
+  367  docker run --device=/dev/ttyUSB0 -p 6080:6080 test
+  368  ssh student@192.168.10.101
+  369  mc
+  370  scp debian\ ha.ova student@192.168.10.1://tmp/
+  371  ssh student@192.168.10.48
+  372  ssh student@192.168.10.48
+  373  sudo apt install ssh
+  374  ssh student@192.168.10.48
+  375  ip a
+  376  zip man
+  377  man
+  378  man man
+  379  zip man
+  380  ssh man
+  381  man
+  382  man man
+  383  zip -r etc_backup.zip /etc
+  384  touch debian-version
+  385  ssh student@192.168.10.70
+  386  code
+  387  /bin/python3 /home/student/Plocha/test.py
+  388  shutdown 9:21
+  389  ps axu | grep Ryba
+  390  ps axu | grep Wanda
+  391  ps axu | grep Fish]
+  392  ps axu | grep Fish
+  393  ps axu | grep fish
+  394  kill -9 2538
+  395  kys
+  396  die
+  397  nano
+  398  cd /tmp
+  399  mkdir ai
+  400  cd ai
+  401  code .
+  402  run task
+  403  zip -r 
+  404  zip -r  backup.zip /etc
+  405  chown --help
+  406  mkdir n
+  407  cd n
+  408  nano n
+  409  ll
+  410  nano n
+  411  ll
+  412  clear
+  413  chown 
+  414  chown --help
+  415  chown | grep 'přepínač'
+  416  chown --help| grep 'přepínač'
+  417  chown --help
+  418  chown student:users
+  419  chown student:users n
+  420  mkdir ni
+  421  chown student:users ni
+  422  chown -R student:users ni
+  423  ssh 192.168.10.70
+  424  ipcalc 192.168.10.192/26
+  425  ipcalc 192.168.10.130/26
+  426  ipcalc 192.168.10.193/28
+  427  nano NikelTest 
+  428  nano NikelTest
+  429  ls
+  430  cd Plocha/
+  431  ls
+  432  sh NIGGA.sh
+  433  cat test.py
+  434  ssh student@192.168.10.56
+  435  toilet
+  436  code
+  437  chmod Untitled-1.sh
+  438  date
+  439  code
+  440  man test
+  441  clear
+  442  por
+  443  pot
+  444  god
+  445  else
+  446  if nigger; goes nigger
+  447  cd Plocha
+  448  free | grep "Mem: | awk '{print $4;}'
+  449  free | grep "Mem: | awk '{print$4;}'
+  450  free | grep "Mem: | awk '{print$4;}'
+  451  free | grep "Mem: | awk '{print$4;}'
+  452  chmod +x ./*
+  453  ls -l
+  454  cd Plocha
+  455  ls -l
+  456  ./testik.sh
+  457  chmod -x ./*
+  458  ./testik.sh
+  459  chmod +x ./*
+  460  ./testik.sh
+  461  echo testik.sh
+  462  chmod +x ./*
+  463  ./testik.sh 
+  464  date +%d%m%y
+  465  date +%d%m%Y
+  466  date +%d %m %Y
+  467  date + %d%m%Y
+  468  date +%d%m%Y
+  469  ./testik.sh 
+  470  free -h
+  471  free /gb
+  472  fre
+  473  free | grep "Mem: | awk
+  474  ./testik.sh
+  475  cd Plocha
+  476  ./testik.sh
+  477  shutdown 9:13
+  478  code
+  479  /test/test.sh
+  480  ./test.sh
+  481  chmod +x ./test.sh
+  482  ./test.sh
+  483  /test.sh
+  484  chmod 777 test.sh
+  485  chmod +x test.sh
+  486  ./test.sh
+  487  code
+  488  chmod +x promena.sh
+  489  chmod +x ./*
+  490  ./promena.sh
+  491  env|grep promena
+  492  set|grep promena
+  493  export promena="neco"
+  494  env|grep promena
+  495  ./test.sh
+  496  env|grep promena
+  497  locate promena
+  498  chmod +x ./*
+  499  ./test.sh
+  500  chmod +x ./promena1.sh
+  501  ./test.sh
+  502  date
+  503  date +%d%m%Y
+  504  date +%d%m%y
+  505  ./test.sh
+  506  free
+  507  free | grep "Mem: | awk
+  508  free | grep Mem: | awk '{print $6}'
+  509  df
+  510  ./test.sh
+  511  df
+  512  free
+  513* 
+  514  history >historie.txt
